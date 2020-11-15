@@ -1,0 +1,80 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --title-accent: #FFFFFF;
+    --background-main: #E5E5E5;
+    --background-strong-accent: #2F303A;
+    --background-sоft-accent: #F5F4FA;
+    --background-top: #FFFFFF;
+}
+
+ul{
+list-style: none;
+}
+.back-top{
+    color: var(--background-top);
+}
+
+.logo>.first-part {
+    color: var(--accent-color);    
+}
+.logo>.second-part {
+    color: var(--title-text-color);    
+}
+.logo .contrast{
+    color: var(--title-accent);
+}
+.touch .link{
+    color: var(--title-text-color);
+}
+.touch .link:hover,
+.touch .link:focus{
+    color: var(--accent-color);
+}
+
+.hero{
+background-color: var(--background-strong-accent);
+}
+.hero .title{
+    color: var(--title-accent);
+}
+.hero .button{
+    color: var(--title-accent);
+    background-color: var(--accent-color);
+}
+.button{
+    color: var(--title-text-color)
+    background-color: var(--background-sоft-accent);
+    }
+.button:hover,
+.button:focus{
+    background-color: var(--accent-color);
+    color: var(--title-accent);
+}
+
+.content .title{
+    color: var(--title-text-color);
+    }
+    .content .paragraph{
+        color: var(--primary-text-color);
+    }
+    .back-main{
+        background-color: var(--background-main);
+    }
+    .back-soft{
+        background-color: var(--background-sоft-accent);
+    }
+    .back-strong{
+        background-color: var(--background-strong-accent);
+    }
+    .contrast .link{
+        color: var(--title-accent);
+    }
+    .contrast .link:hover,
+    .contrast .link:focus{
+        color: var(--accent-color);
+    }
+    .contrast .paragraph{
+        color: var(--title-accent);
+    }
