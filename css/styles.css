@@ -8,73 +8,197 @@
     --background-sоft-accent: #F5F4FA;
     --background-top: #FFFFFF;
 }
-
+body{
+background-color: var(--background-main);
+color: var(--primary-text-color); 
+    
+font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 2;
+letter-spacing: 0.03em;
+}
+h1, h2, h3{
+    color: var(--title-text-color);
+}
 ul{
 list-style: none;
 }
-.back-top{
-    color: var(--background-top);
+.contacts{
+color: var(--title-text-color);
+background-color: var(--title-accent);
+    
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+.contacts .link{
+    color: var(--title-text-color);
+    }
+    .contacts .link:hover,
+    .contacts .link:focus{
+    color: var(--accent-color);
 }
 
+.logo{
+    text-decoration: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+}
 .logo>.first-part {
-    color: var(--accent-color);    
+color: var(--accent-color);   
 }
 .logo>.second-part {
-    color: var(--title-text-color);    
+color: var(--title-text-color);
 }
 .logo .contrast{
-    color: var(--title-accent);
-}
-.touch .link{
-    color: var(--title-text-color);
-}
-.touch .link:hover,
-.touch .link:focus{
-    color: var(--accent-color);
+color: var(--title-accent);
 }
 
 .hero{
 background-color: var(--background-strong-accent);
 }
-.hero .title{
-    color: var(--title-accent);
+ .hero .title{ 
+color: var(--title-accent);
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
 .hero .button{
-    color: var(--title-accent);
-    background-color: var(--accent-color);
+color: var(--title-accent);
+background-color: var(--accent-color);
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
 }
-.button{
+.type-button{
     color: var(--title-text-color)
     background-color: var(--background-sоft-accent);
     }
-.button:hover,
-.button:focus{
+.type-button:hover,
+.type-button:focus{
     background-color: var(--accent-color);
     color: var(--title-accent);
 }
+.review .title{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.4;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.review .content{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
 
-.content .title{
-    color: var(--title-text-color);
-    }
-    .content .paragraph{
-        color: var(--primary-text-color);
-    }
-    .back-main{
-        background-color: var(--background-main);
-    }
-    .back-soft{
-        background-color: var(--background-sоft-accent);
-    }
-    .back-strong{
-        background-color: var(--background-strong-accent);
-    }
-    .contrast .link{
-        color: var(--title-accent);
-    }
-    .contrast .link:hover,
-    .contrast .link:focus{
-        color: var(--accent-color);
-    }
-    .contrast .paragraph{
-        color: var(--title-accent);
-    }
+}
+.exposition-title{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+} 
+
+.acquaintance .title{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.acquaintance .content{
+ font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.example .title{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    
+    letter-spacing: 0.06em;
+}
+.example .content{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.9;
+
+letter-spacing: 0.03em;
+}
+
+.contacts-accent{
+    background-color: var(--background-strong-accent);
+}
+.location{
+color: var(--title-accent);
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+} 
+.contacts-accent .link{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;    
+    letter-spacing: 0.03em;    
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+.contacts-accent .link:hover,
+.contacts-accent .link:focus{
+    color: var(--accent-color);
+}
+
+.current-link{
+    color: var(--accent-color);
+}
