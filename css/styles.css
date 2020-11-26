@@ -8,6 +8,9 @@
     --background-sоft-accent: #F5F4FA;
     --background-top: #FFFFFF;
 }
+*{
+    margin: 0;
+}
 body{
 /* background-color: var(--background-main);   */
 color: var(--primary-text-color); 
@@ -39,6 +42,7 @@ list-style: none;
 .back-soft{
 background-color: var(--background-sоft-accent);
 }
+
 .contacts{
 color: var(--title-text-color);
 background-color: var(--title-accent);
@@ -52,8 +56,12 @@ letter-spacing: 0.02em;
     color: var(--title-text-color);
     text-decoration: none;
     }
-    .contacts .link:hover,
-    .contacts .link:focus{
+.contacts-accent .link:hover,
+.contacts-accent .link:focus,
+.contacts .link:hover,
+.contacts .link:focus,
+.contacts .top .link:hover,
+.contacts .top .link:focus{
     color: var(--accent-color);
 }
  .contacts .top .link{ 
@@ -62,7 +70,7 @@ letter-spacing: 0.02em;
 
 .logo{
     text-decoration: none;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -83,7 +91,7 @@ color: var(--title-accent);
 background-color: var(--background-strong-accent);
 }
 
- .hero .title{ 
+.hero .title{ 
 color: var(--title-accent);
 font-weight: 900;
 font-size: 44px;
@@ -107,7 +115,7 @@ text-align: center;
 letter-spacing: 0.06em;
 }
 .type-button{
-    color: var(--title-text-color)
+    color:var(--title-text-color);
     background-color: var(--background-sоft-accent);
     }
 
@@ -190,13 +198,10 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 text-decoration: none;    
 }
-
-.contacts-accent .link:hover,
-.contacts-accent .link:focus{
-color: var(--accent-color);
-}
-
 .current-link{
 color: var(--accent-color);
 text-decoration: none;
+}
+address{
+    font-style: normal;
 }
