@@ -2,17 +2,16 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
-    --title-accent: #FFFFFF;
-    --background-main: #E5E5E5;
+    --title-accent: #FFFFFF;    
     --background-strong-accent: #2F303A;
     --background-sоft-accent: #F5F4FA;
-    --background-top: #FFFFFF;
+    --background: #FFFFFF;
 }
 *{
     margin: 0;
 }
 body{
-/* background-color: var(--background-main);   */
+    
 color: var(--primary-text-color); 
     
 font-family: 'Roboto','Raleway',sans-serif;
@@ -27,17 +26,14 @@ h1, h2, h3{
 ul{
 list-style: none;
 }
-.back-top{
-    background-color: var(--background-top);
+.back{
+    background-color: var(--background);
 }
 
 .back-strong{
     background-color: var(--background-strong-accent);
 }
-.back-main{
-    background-color: var(--background-main);
-
-}
+ 
 
 .back-soft{
 background-color: var(--background-sоft-accent);
@@ -83,6 +79,7 @@ color: var(--accent-color);
 .logo>.second-part {
 color: var(--title-text-color);
 }
+
 .logo .contrast{
 color: var(--title-accent);
 }
